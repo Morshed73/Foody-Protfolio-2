@@ -1,0 +1,194 @@
+/*===Start Indexing===
+1. Theme default css
+2. Header
+3. Slider
+4. Contact
+5. About
+6. Qualification
+7. Portfolio
+8. Services
+9. Team
+10. Testimonial
+11. Contact form
+12. Brand
+13. Block
+14. Footer
+===End Indexing*/
+
+/*===1. Theme default css===*/
+*{
+    height: ;
+    width: ;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Grandstander', cursive;
+}
+
+/*===2. Header===*/
+.banner{
+    position: relative;
+    background-image: url("images/bg/lime-2481346_1920.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 100%;
+    max-width: 100%;
+    display: block;
+}
+.banner-heading{
+    padding: 3vh;
+}
+.banner-image{
+    position: absolute;
+    left: 445px;
+    height: 100px;
+    width: 100px;
+    top: 15px;
+    z-index: 0;
+}
+.banner-image img{
+    max-width: 100%;
+    min-width: 100px;
+    max-height: 100%;
+    min-height: 100px;
+}
+.nav-btn{
+    background-color: #1E7E34;
+    color: #ffffff;
+    border: none;
+    padding: 7px 10px;
+    border-radius: 4px;
+    outline: none;
+}
+.nav-btn:hover{
+    background-color: rgb(188, 206, 26);
+    color: #000000;
+}
+
+/*===3. Slider===*/
+.d-block{
+    height: 600px;
+}
+
+/*===item===*/
+.items{
+    margin: auto;
+    padding: 4vh;
+}
+.item{
+    position: relative;
+    border: 2px solid;
+    height: 250px;
+    width: 300px;
+    margin-top: 20px;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+}
+.servises{
+    font-size: 50px;
+    color: rgb(82, 79, 79);
+    text-align: center;
+    border-bottom: 2px solid #ffa500;
+}
+.item{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: none;
+}
+.item img{
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 297px;
+    min-height: 247px;
+    padding: px;
+}
+.item-info{
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color: rgba(255, 191, 53, 0.5);
+    visibility: hidden;
+    transition: 0.2s;
+}
+.item-button{
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+.item-button:hover{
+    background-color:  #ffa500;
+}
+.item:hover .item-info{
+    visibility: visible;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+/*===5. About===*/
+.about-heading{
+    font-size: 50px;
+    color: rgb(82, 79, 79);
+    text-align: center;
+    border-bottom: 2px solid #ffa500;
+}
+.about-img{
+	height: auto;
+	width: 350px;
+	display: block;
+	margin: auto;
+	padding: 15px;
+}
+.about-inner{
+	border-left: 2px solid #ffa500;
+	padding: 15px;
+}
+.about-inner-heading{
+	font-size: 30px;
+}
+.about-inner-info{
+	font-size: 20px;
+	text-align: justify;
+}
+
+/*=== footer === */
+.footer{
+    background-color:  #ffa500;
+    margin-top: 100px;
+    text-align: center;
+    padding: 40px 0px;
+}
+.footer .footer-links ul li a, .footer .footer-social-media ul li a, .footer .footer-contact ul li{
+    line-height: 50px;
+    text-decoration: none;
+    color: #000000;
+}
+.footer .footer-links ul, .footer .footer-social-media ul, .footer .footer-contact ul{
+    list-style-type: none;
+}
+/* copy right */
+.copy-right{
+    text-align: center;
+    padding: 60px 0px;
+}
+.footer-heading a{
+    text-decoration: none;
+    color: rgb(82, 79, 79);
+}
+.copy-right-alart{
+    font-size: 20px;
+    color: rgb(82, 79, 79);
+}
